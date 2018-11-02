@@ -20,10 +20,12 @@ namespace AbstractDroneClass
 
         //the parent method gives result of a single input, while the new method takes two results and gives an average
         //we access the previous private members through properties
+        
 
         public override double FlightSpeed()
         {
-            return Math.Round((double)(this.GetDistance() + totalDistance1) / (double)(this.GetFlyTime() + totalFlyTime1),2);
+            double calculatedSpeed =  Math.Round((double)(this.GetDistance() + totalDistance1) / (double)(this.GetFlyTime() + totalFlyTime1),2);
+            return calculatedSpeed;
         }
 
 

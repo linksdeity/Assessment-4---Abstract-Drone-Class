@@ -42,8 +42,8 @@ namespace AbstractDroneClass
         
         public virtual double FlightSpeed()
         {
-
-            return (double) (totalDistance / totalFlyTime);
+            double calculatedSpeed = (double)(totalDistance / totalFlyTime);
+            return calculatedSpeed;
         }
 
 
