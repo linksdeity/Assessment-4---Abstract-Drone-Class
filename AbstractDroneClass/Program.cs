@@ -20,7 +20,6 @@ namespace AbstractDroneClass
 
 
 
-
             Console.WriteLine("Welcome to the QuadRotor Drone class!");
 
 
